@@ -1,6 +1,9 @@
 # Notification Handler AWS Lambda
 
 Node.js AWS Lambda function that validates, normalizes, and stores semi-structured notification events. The project includes a local runner for development and testing.
+---
+Loom video: https://www.loom.com/share/ca3189db38a842bcb2726e955fd8c6e3
+---
 
 ## Features
 
