@@ -1,0 +1,23 @@
+{
+  "name": "notification-handler-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function for processing and normalizing notification events",
+  "main": "app/handler.js",
+  "scripts": {
+    "start": "node app/run.js --input sample/events.json --log-level INFO",
+    "test": "node app/run.js --input sample/events.json --log-level DEBUG"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "events",
+    "notifications"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chrono-node": "^2.7.7"
+  }
+}

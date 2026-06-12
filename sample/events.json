@@ -1,0 +1,47 @@
+[
+  {
+    "type": "user_registered",
+    "name": "Alice",
+    "email": "alice@example.com",
+    "roles": "admin, editor , manager",
+    "joined": "2021-04-01"
+  },
+  {
+    "type": "user_registered",
+    "name": "Bob Smith",
+    "email": "bob.smith(at)example.com",
+    "roles": ["viewer", " "],
+    "joined": "April 5th, 2021 13:45 PST"
+  },
+  {
+    "type": "password_reset",
+    "email": "carol@example.com",
+    "requested": "2021/06/01 10:23+02:00"
+  },
+  {
+    "type": "user_deleted",
+    "email": "david@example.com",
+    "deleted": "2021-07-15T00:00:00"
+  },
+  {
+    "type": "unknown_type",
+    "email": "eve@example.com",
+    "happened": "yesterday"
+  },
+  {
+    "type": "user_registered",
+    "name": "Alice",
+    "email": "alice@example.com",
+    "roles": null,
+    "joined": "2021-04-01",
+    "event_id": "dedupe-1"
+  },
+  {
+    "type": "user_registered",
+    "name": "Alice",
+    "email": "alice@example.com",
+    "roles": "admin",
+    "joined": "2021-04-01",
+    "event_id": "dedupe-1"
+  }
+]
